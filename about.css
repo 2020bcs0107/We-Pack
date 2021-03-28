@@ -1,0 +1,54 @@
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+  }
+  
+  .social-link:hover,
+  .social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+  }
+
+  .search_bar {
+    border-radius: 2mm;
+    border: 0;
+    padding-left: 10%;
+    padding-right: 5%;
+    text-align: left;
+    margin-top: 0.2%;
+    float: right;
+    font-size: 23px;
+    margin-right: 10%;
+    background-color: rgba(255, 255, 255, 0.801);
+    font-family: sans-serif;
+  }
+  
+  .head-button {
+    font-weight: normal;
+    transition: 0.3s;
+    text-decoration: none;
+    float: right;
+    font-size: 28px;
+    margin-right: 2%;
+    color: white;
+    font-family: sans-serif;
+  }
+  
+  .head-button:hover {
+    background-color: red;
+  }
+
+  .img-fluid{
+      position: relative;
+      bottom: 650px;
+      float: right;
+  }

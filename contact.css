@@ -1,0 +1,59 @@
+body{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.152),rgba(255, 255, 255, 0.152)),url(https://wallpapercave.com/wp/wp2308555.jpg);
+    background-position-y: 100%;
+}
+.contact{
+    padding: 4%;
+    height: 400px;
+}
+.col-md-3{
+    margin-top: 8%;
+    background: #dd0505;
+    padding: 4%;
+    border-top-left-radius: 0.9rem;
+    border-bottom-left-radius: 0.9rem;
+}
+.contact-info{
+    margin-top:10%;
+}
+.contact-info img{
+    margin-bottom: 15%;
+}
+.contact-info h2{
+    margin-bottom: 10%;
+}
+.col-md-9{
+    margin-top: 8%;
+    background: rgb(0, 0, 0);
+    padding: 3%;
+    border-top-right-radius: 0.9rem;
+    border-bottom-right-radius: 0.9rem;
+}
+.contact-form label{
+    font-weight:600;
+}
+.contact-form button{
+    margin-top: 1.5%;
+    background: white;
+    color: #25274d;
+    font-weight: 600;
+    width: 25%;
+}
+.contact-form button:focus{
+    box-shadow:none;
+}
+
+.icons{
+    transition: 0.25s;
+    margin-top: 60%;
+    margin-left: 9%;
+}
+
+.icons:hover{
+    transform: scale(1.25);
+}
+
+.contact-form button:hover{
+    color: white;
+    background-color: red;
+}

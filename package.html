@@ -1,0 +1,105 @@
+<html>
+
+<head>
+    <title>package</title>
+    <link rel="stylesheet" type="text/css" href="package.css">
+</head>
+
+<body background="PACKAGE.webp">
+    <div>
+        <fieldset>
+            <img src="https://www.indiapost.gov.in/_layouts/15/images/DOP.Portal.UILayer/parcel-box.png" alt=""
+                height="300px" style="float: right;position: relative; right: 350px; top: 160px;">
+            <legend style="width: 298px; padding: 5px; margin-left: calc(44.5% - 35px - 8px);">
+                <h1 style="color: white; position: relative; left: 0mm;">Package Details</h1>
+            </legend>
+            <form action="payment.html">
+                <h3 style="color: white; padding-left: 14mm;">Dimensions of the package</h3>
+                <table style="margin-left: 0%;">
+                    <tr>
+                        <td width="150px" style="color: white;padding-left: 12mm;">Height</td>
+                        <td></td>
+                        <td width="150px" style="color: white;padding-left: 12mm;">Length</td>
+                        <td></td>
+                        <td width="150px" style="color: white;padding-left: 12mm;"> Width</td>
+                    </tr>
+                    <tr>
+                        <td width="150px" style="color: white;padding-left: 10mm;"><input type="number"
+                                style="color: black; background-color: rgba(245, 245, 245, 0.7); border-radius: 4mm; border-color: black;" required>
+                        </td>
+                        <td style="color: white;">(in cm)</td>
+                        <td width="150px" style="color: white; padding-left: 10mm;"><input type="number"
+                                style="color: black; background-color: rgba(245, 245, 245, 0.7); border-radius: 4mm; border-color: black;" required>
+                        </td>
+                        <td style="color: white;">(in cm)</td>
+                        <td width="150px" style="color: white; padding-left: 10mm;"> <input type="number"
+                                style="color: black; background-color: rgba(245, 245, 245, 0.7); border-radius: 4mm; border-color: black;" required>
+                        </td>
+                        <td style="color: white;">(in cm)</td>
+                    </tr>
+                    <tr>
+                        <td width="150px" style="color: white;padding-left: 12mm;">Weight</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td width="150px" style="padding-left: 10mm;"><input type="number"
+                                style="color: black; background-color: rgba(245, 245, 245, 0.7); border-radius: 4mm; border-color: black;" required>
+                        </td>
+                        <td></td>
+                        <d></d>
+                    </tr>
+                </table>
+                <h3 style="color: white;padding-left: 14mm;">Delivery details</h3>
+                <table>
+                    <tr>
+                        <td style="color: white;padding-left: 12mm;">From</td>
+                        <td style="color: white;padding-left: 10mm;"></td>
+                        <td style="color: white;padding-left: 2mm;">To</td>
+                    </tr>
+                    <tr>
+                        <td style="padding-left: 10mm;"><textarea rows="10" cols="40"
+                                style="color: black; background-color: rgba(245, 245, 245, 0.7); border-radius: 4mm; border-color: black;" required></textarea>
+                        </td>
+                        <td align="center" style="color: white;"><svg xmlns="http://www.w3.org/2000/svg" width="60"
+                                height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                            </svg></td>
+                        <td style="padding-left: 0mm;"><textarea rows="10" cols="40"
+                                style="color: black; background-color: rgba(245, 245, 245, 0.7); border-radius: 4mm; border-color: black;" required></textarea>
+                        </td>
+                    </tr>
+                </table>
+                <table>
+                    <h3 style="color: white;padding-left: 14mm;">Package type</h3>
+                    <tr>
+                        <td style="color: white;padding-left: 12mm;"><input type="radio" name="package" required>Domestic</td>
+                        <td style="color: white;padding-left: 12mm;"><input type="radio" name="package" required>International
+                        </td>
+                    </tr>
+                </table>
+                <table>
+                    <h3 style="color: white;padding-left: 14mm;">Packaging style</h3>
+                    <tr>
+                        <td style="padding-left: 12mm;"><select id="type"
+                                style="border-radius: 3mm; padding-left: 8mm;" required>
+                                <option value="select">Select Packing style</option>
+                                <option value="Premium">Premium</option>
+                                <option value="Basic">Basic</option>
+                            </select></td>
+                        <td></td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td width="1000px"></td>
+                        <td> <button id="button"><span>Proceed</span></button></td>
+                    </tr>
+                </table>
+            </form>
+        </fieldset>
+    </div>
+</body>
+
+</html>

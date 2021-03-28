@@ -1,0 +1,165 @@
+*{
+	padding: 0%;
+	margin: 0%;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+body{
+	font-family: Copperplate Gothic;
+	color :rgba(180, 127, 127, 0);
+	margin: 0;
+  padding: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(https://wallpaperaccess.com/full/4038284.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+nav{
+padding: 0%;
+  width: 100%;
+  height: 80px;
+  background: #fff7f7c9;
+  left:50%;
+  top:4%;
+  color: #2f3640;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  border-radius: 0px;
+  margin: 0 auto;
+}
+label.logo{
+	color:white;
+	font-size: 35px;
+	line-height:80px;
+	padding: 0 100px;
+	font-weight: bold;
+}
+nav ul{
+	float: right;
+	margin-right: 0px;
+
+}
+nav ul li{
+    position: relative;
+    right: 10%;
+	display: inline-block;
+	line-height: 30px;
+	padding-bottom:9.3%;
+    padding-left: 0%;
+	margin: 0 10px;
+}
+nav ul li a{
+	color: white;
+	font-size:17px;
+	text-transform: uppercase;
+}
+a{
+    color: blanchedalmond;
+    transition: 0.4s;
+    background-color: hsla(0, 76%, 36%, 0.877);
+    border-radius: 6%;
+    text-align: center;
+    display: inline-block;
+    padding: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    cursor: pointer;
+}
+a:hover{
+	color: rgb(58, 55, 52);
+      transform: scale(1.1);
+      background-color: hsla(22, 76%, 89%, 0.918);
+
+}
+.search-box{
+	position: fixed;
+	top: 100%;
+	left: 0%;
+	transform: translate(180%,-150%);
+	background:#2f3640;
+	height:40px;
+	border-radius: 18px;
+	padding: 0px;
+}
+.search-btn{
+    position: relative;
+    left: 0%;
+    bottom: 77%;
+	color: #e84118;
+	float: right;
+	width: 20px;
+	height: 40px;
+	border-radius: 18px;
+	background: #2f3640;
+	align-items:center;
+}
+
+.search-btn:hover{
+    background-color: white;
+    transform: none;
+}
+.search-txt{
+	border: none;
+	text-align: center;
+	background: none;
+	outline: none;
+	float: left;
+	padding: 2.5%;
+	color: white;
+	font-size: 16px;
+	transition: 0;
+}
+.container{
+ width: 90%;
+ padding: 10px;
+ margin:20px auto;
+ display: flex;
+ justify-content: center;
+ padding-top:6%;
+}
+.box{
+    width:1500px;
+    height:300px;
+    background-color:transparent; 
+    float: left;
+    margin: 15px 10px;
+    border-radius:15px;
+
+}
+.center{
+    border-radius: 10mm;
+	display: block;
+  margin-left: 300px;
+  margin-right: 90px;
+  width: 70%;
+}
+.container1{
+ width: 90%;
+ padding: 10px;
+ margin:0px auto;
+ display: flex;
+ justify-content: center;
+ padding-top:6%;
+}
+.box1{
+    width:1500px;
+    height:300px;
+    background-color:hsla(21, 75%, 89%, 0.575); 
+    float: left;
+    margin: 5px 5px;
+    border-radius:15px;
+}
+
+.download-box {
+    color: rgba(255, 255, 255, 0.815);
+    font-weight: bold;
+    margin: 4%;
+    font-size: 30px;
+    width: 15%;
+    padding: 0.5%;
+    text-align: -webkit-center;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+  }

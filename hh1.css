@@ -1,0 +1,177 @@
+body {
+    background-image: url(https://wallpaperaccess.com/full/1559732.jpg);
+    margin: 0px;
+  }
+  .main_bar {
+    background-color: whitesmoke;
+    position: relative;
+    height: 60px;
+    text-align: right;
+    padding-right: 2%;
+    padding-top: 0.4%;
+    border-bottom: 0px;
+  }
+  
+  .matter {
+    transition: 0.5s;
+    position: fixed;
+    margin-top: 0%;
+    margin-left: 3%;
+    text-align: center;
+    opacity: 1;
+    font-weight: bolder;
+    color: whitesmoke;
+    font-size: 25px;
+    font-family: cursive;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: rgba(217, 224, 233, 0.658);
+    padding: 10px;
+  }
+  
+  .matter:hover {
+    transform: scaleX(1.1);
+    background-color: rgba(255, 255, 255, 0.568);
+  }
+  
+  .start {
+    text-decoration: none;
+    border-radius: 50px;
+    background-color: rgb(212, 224, 228);
+    font-family: cursive;
+    border: 2px;
+    border-color: rgb(203, 221, 231);
+  }
+  
+  .button {
+    color: blanchedalmond;
+    position: relative;
+    left: 64%;
+    margin: 0.15%;
+    font-size: 40%;
+    text-decoration: none;
+    transition: 0.4s;
+    background-color: hsla(0, 0%, 0%, 0.37);
+    border-radius: 6%;
+    text-align: center;
+    display: inline-block;
+    padding: 0.5%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    color: blanchedalmond;
+    transform: scale(1.15);
+    background-color: hsla(0, 0%, 0%, 0.596);
+  }
+  
+  .extra {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 70%;
+    text-decoration: none;
+    color: blanchedalmond;
+    background-color: hsla(0, 0%, 0%, 0.37);
+    border-radius: 6%;
+    text-align: center;
+    padding: 0.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    cursor: pointer;
+  }
+  
+  .heading {
+    color: rgba(8, 2, 5, 0.582);
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-family: "Engravers MT", "Engravers MT", sans-serif;
+    background-color: rgba(182, 112, 159, 0.432);
+    font-size: 0.8cm;
+    text-align: left;
+  }
+  
+  .head-button {
+    transition: 0.6s;
+    text-decoration: none;
+    float: right;
+    font-size: 28px;
+    margin-right: 2%;
+    color: white;
+    font-family: sans-serif;
+  }
+  
+  .head-button:hover {
+    background-color: #9b070b;
+    transform: scale(1.25);
+    color: white;
+    border-radius: 10%;
+  }
+  
+  .company-name {
+    font-size: 30px;
+    margin-left: 4%;
+    color: white;
+    font-family: sans-serif;
+  }
+  
+  .download-box {
+    color: rgba(255, 255, 255, 0.815);
+    font-weight: bold;
+    margin: 4%;
+    font-size: 30px;
+    width: 15%;
+    padding: 0.5%;
+    text-align: -webkit-center;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+  }
+  
+  .head {
+    margin: 4%;
+    font-size: 70px;
+  }
+  
+  .body-data {
+    margin: 4%;
+    font-size: 25px;
+  }
+  
+  .purchase-button {
+    padding: 0.5%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    border-radius: 20px;
+    border: 2px solid #dc5050;
+    color: #dc5050;
+    font-size: 20px;
+  }
+  
+  .register-button {
+    padding: 0.5%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    border-radius: 20px;
+    border: 1px solid white;
+    color: white;
+    margin-left: 2%;
+    background-color: #dc5050;
+    font-size: 20px;
+  }
+  
+  .search_bar {
+    border-bottom-right-radius: 2mm;
+    border-top-right-radius: 2mm;
+    border: 0;
+    padding-left: 0%;
+    padding-right: 5%;
+    text-align: left;
+    margin-top: 0.2%;
+    float: right;
+    font-size: 23px;
+    margin-right: 15%;
+    background-color: rgba(255, 255, 255, 0.801);
+    font-family: sans-serif;
+  }
+  

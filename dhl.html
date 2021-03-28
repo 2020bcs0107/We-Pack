@@ -1,0 +1,336 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>DHL</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=divice-width" ,initial-scale=1.0">
+    <style>
+        * {
+            padding: 0%;
+            margin: 0%;
+            text-decoration: none;
+            list-style: none;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Copperplate Gothic;
+            color: rgba(180, 127, 127, 0);
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(https://wallpaperaccess.com/full/4038284.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        label.logo {
+            color: white;
+            font-size: 35px;
+            line-height: 80px;
+            padding: 0 100px;
+            font-weight: bold;
+        }
+
+        nav ul {
+            float: right;
+            margin-right: 0px;
+
+        }
+
+        nav ul li {
+            position: relative;
+            right: 10%;
+            display: inline-block;
+            line-height: 30px;
+            padding-bottom: 9.3%;
+            padding-left: 0%;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: white;
+            font-size: 17px;
+            text-transform: uppercase;
+        }
+
+        .search-box {
+            position: fixed;
+            top: 100%;
+            left: 0%;
+            transform: translate(180%, -150%);
+            background: #2f3640;
+            height: 40px;
+            border-radius: 18px;
+            padding: 0px;
+        }
+
+        .search-btn {
+            position: relative;
+            left: 0%;
+            bottom: 77%;
+            color: #e84118;
+            float: right;
+            width: 20px;
+            height: 40px;
+            border-radius: 18px;
+            background: #2f3640;
+            align-items: center;
+        }
+
+        .search-btn:hover {
+            background-color: white;
+            transform: none;
+        }
+
+        .search-txt {
+            border: none;
+            text-align: center;
+            background: none;
+            outline: none;
+            float: left;
+            padding: 2.5%;
+            color: white;
+            font-size: 16px;
+            transition: 0;
+        }
+
+        .container {
+            width: 90%;
+            padding: 10px;
+            margin: 20px auto;
+            display: flex;
+            justify-content: center;
+            padding-top: 6%;
+        }
+
+        .box {
+            width: 1500px;
+            height: 300px;
+            background-color: transparent;
+            float: left;
+            margin: 15px 10px;
+            border-radius: 15px;
+
+        }
+
+        .center {
+            border-radius: 10mm;
+            display: block;
+            margin-left: 300px;
+            margin-right: 90px;
+            width: 70%;
+        }
+
+        .container1 {
+            width: 90%;
+            padding: 10px;
+            margin: 0px auto;
+            display: flex;
+            justify-content: center;
+            padding-top: 6%;
+        }
+
+        .box1 {
+            width: 1500px;
+            height: 300px;
+            background-color: hsla(21, 75%, 89%, 0.575);
+            float: left;
+            margin: 5px 5px;
+            border-radius: 15px;
+        }
+
+        .download-box {
+            color: rgba(255, 255, 255, 0.815);
+            font-weight: bold;
+            margin: 4%;
+            font-size: 30px;
+            width: 15%;
+            padding: 0.5%;
+            text-align: -webkit-center;
+            border: 1px solid rgb(255, 255, 255);
+            border-radius: 10px;
+
+        }
+
+        #button {
+            font-size: 25px;
+            height: 50px;
+            width: "200px";
+            position: relative;
+            left: 600px;
+            background-color: rgb(240, 240, 240);
+            border-radius: 6px;
+            color: #e84118;
+            font-weight: bold;
+        }
+
+        #button:hover {
+            background-color: #000000;
+            color: rgb(221, 0, 0);
+        }
+
+        #button span {
+
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+
+        }
+
+        #button span:after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+
+        #button:hover span {
+            padding-right: 25px;
+        }
+
+        #button:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+
+        .search_bar {
+            border-radius: 2mm;
+            border: 0;
+            padding-left: 10%;
+            padding-right: 5%;
+            text-align: left;
+            margin-top: 0.2%;
+            float: right;
+            font-size: 23px;
+            margin-right: 10%;
+            background-color: rgba(255, 255, 255, 0.801);
+            font-family: sans-serif;
+        }
+
+        .head-button {
+            font-weight: normal;
+            transition: 0.3s;
+            text-decoration: none;
+            float: right;
+            font-size: 28px;
+            margin-right: 2%;
+            color: white;
+            font-family: sans-serif;
+        }
+
+        .head-button:hover {
+            color: white;
+            background-color: red;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div
+        style="background-color: black;margin-top: 0%; font-size: 9.6mm; color: red; font-weight: bold; padding-top: 0.5%; padding-bottom: 0.5%;">
+        <a class="company-name" href="about.html"
+            style="text-decoration: none;font-size: 9.6mm; font-weight: bold; color: white; padding-left: 10mm;">We</a>Pack
+        <a class="head-button" href="up.html">User Profile</a>
+        <a class="head-button" href="contact.html">Contact us</a>
+        <a class="head-button" href="nav.html">Services</a>
+        <a class="head-button" href="about.html">About us</a>
+        <a class="head-button" href="hh.html">Home</a>
+        <input class="search_bar" type="text" name="" placeholder="Type to search">
+
+    </div>
+
+    <div class="container">
+        <div class="box">
+            <img src="data:image/png;base64,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"
+                style="position: relative;left:490px ;height:300px ;" />
+        </div>
+    </div>
+    <div>
+        <center>
+            <h1 style="color: red;background-color: white; margin-left: 600px; margin-right: 600px;">DHL</h1>
+        </center>
+    </div>
+    <pre
+        style="text-align: center; padding-top: 10mm; padding-bottom: 7mm; font-family: Copperplate Gothic; font-size: 4mm; color: white;"> DHL Express Ltd., South Asia's premier express air and integrated transportation & distribution company, offers<br>secure and reliable delivery of consignments to over 35,000 locations in India. As part of the DPDHL Group’s (DHL Express, <br>Global Forwarding & DHL Supply Chain) Post - E-commerce - Parcel (PeP) division, Blue Dart accesses the largest and most  <br>comprehensive express and logistics network worldwide, covering over 220 countries and territories and offers an entire  <br>spectrum of distribution services including air express, freight forwarding, supply chain solutions and customs clearance</pre>
+    <hr style="border-color: blanchedalmond; margin-right: 70mm; margin-left: 70mm;">
+    <div class="container1">
+        <div class="box1">
+            <table>
+                <tr>
+                    <td>
+                        <img src="https://previews.123rf.com/images/edma/edma1102/edma110200171/8952030-delivery-courier-with-small-package-in-his-hand.jpg"
+                            width="300px" height="297px" style="border-radius:8px;" />
+                    </td>
+                    <td style="color: rgb(30, 31, 32);position:relative;top:-60px ;">
+                        <h1>Basic Package</h1><br><br>
+                        <h4>This includes some basic things/light-weight things like papers ,documents,gifts,etc......
+                        </h4><br>
+                        <h4>This section comes under the package which consists of the item-weight less than 1 kg </h4>
+                        <br>
+                        <h4><b
+                                style="color: red;font-size:25px;font-family: 'Courier New', Courier, monospace;">₹9/gm</b>(For
+                            a distance of 1km)</h4>
+                    </td>
+                    <td><a href="package.html"><input type="button" value="+Add"
+                                style="background:white;width: 80px;height: 40px; font-size: 5mm; position: relative; left: 60mm;"></a></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="container1">
+        <div class="box1">
+            <table>
+                <tr>
+                    <td>
+                        <img src="https://image.freepik.com/free-photo/bearded-delivery-man-red-uniform-cap-holding-large-box-package-suffering-from-heavy-weight-standing-orange-wall_141793-48146.jpg"
+                            width="300px" height="297px" style="border-radius:8px;" />
+                    </td>
+                    <td style="color: rgb(30, 31, 32);position:relative;top:-60px ;">
+                        <h1>Medium Package</h1><br><br>
+                        <h4>This includes things/Medium-weight things like boxes ,medium,gifts,etc...... </h4><br>
+                        <h4>This section comes under the package which consists of the item-weight less than 5 kg </h4>
+                        <br>
+                        <h4><b
+                                style="color: red;font-size:25px;font-family: 'Courier New', Courier, monospace;">₹15/gm</b>(For
+                            a distance of 1km)</h4>
+                    </td>
+                    <td><a href="package.html"><input type="button" value="+Add"
+                                style="background:white;width: 80px;height: 40px; font-size: 5mm; position: relative; left: 60mm;"></a></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="container1">
+        <div class="box1">
+            <table>
+                <tr>
+                    <td>
+                        <img src="https://previews.123rf.com/images/andreypopov/andreypopov1302/andreypopov130200041/17626302-delivery-man-carrying-heavy-box-on-white-background.jpg"
+                            width="300px" height="297px" style="border-radius:8px;" />
+                    </td>
+                    <td style="color: rgb(30, 31, 32);position:relative;top:-60px ;">
+                        <h1>Heavy Package</h1><br><br>
+                        <h4>This includes things/Medium-weight things like boxes ,Heavy weights,gifts,etc...... </h4>
+                        <br>
+                        <h4>This section comes under the package which consists of the item-weight above 5 kg </h4><br>
+                        <h4><b
+                                style="color: red;font-size:25px;font-family: 'Courier New', Courier, monospace;">₹20/gm</b>(For
+                            a distance of 1km)</h4>
+                    </td>
+                    <td><a href="package.html" class="add"><input type="button" value="+Add"
+                                style="background:white;width: 80px;height: 40px; font-size: 5mm; position: relative; left: 68mm;"></a></td>
+                </tr>
+            </table>
+        </div>
+    </div><br>
+
+   </body>
+
+</html>
